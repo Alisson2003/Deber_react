@@ -29,6 +29,14 @@ const deportes = () => {
                     />
                     <p>Natacion</p>
                 </div>
+                <div>
+                    <img 
+                        src="/imagenes/danza.jpg" 
+                        alt="Deporte 4" 
+                        style={{ width: '300px', height: '200px', objectFit: 'cover' }}
+                    />
+                    <p>Danza Folklorica</p>
+                </div>
             </div>
         </div>
     );

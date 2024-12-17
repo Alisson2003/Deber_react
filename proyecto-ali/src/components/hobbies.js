@@ -1,6 +1,6 @@
 import React from 'react';
 // Usamos ../ para subir un nivel desde components hacia src
-import danza from '../danza.jpg';
+import cocinar from '../cocinar.jpg';
 import costura from '../costura.jpg';
 
 const hobbies = () => {
@@ -10,11 +10,11 @@ const hobbies = () => {
             <div style={{ display: 'flex', justifyContent: 'space-around' }}>
                 <div>
                     <img 
-                        src={danza}
+                        src={cocinar}
                         alt="danza" 
                         style={{ width: '300px', height: '200px', objectFit: 'cover' }}
                     />
-                    <p>Danza Folklorica</p>
+                    <p>Cocinar</p>
                 </div>
                 <div>
                     <img 
@@ -22,7 +22,7 @@ const hobbies = () => {
                         alt="costura" 
                         style={{ width: '300px', height: '200px', objectFit: 'cover' }}
                     />
-                    <p>Confeccion uniformes medicos</p>
+                    <p>Cocinar</p>
                 </div>
             </div>
         </div>
