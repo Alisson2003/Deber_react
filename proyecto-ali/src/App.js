@@ -9,7 +9,7 @@ import Hobbies from './components/hobbies';
 const App = () => {
   return (
       <div style={{ 
-          background: 'linear-gradient(135deg, #ff9966, #ff5e62)',
+          background: 'linear-gradient(135deg,rgb(102, 255, 242), #ff5e62)',
           padding: '20px', 
           minHeight: '100vh' 
       }}>
