@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Informacion from './informacion';
+import Estudios from './components/estudios';
+import Herramientas from './components/herramientas';
+import Deportes from './components/deportes';
+import Musica from './components/musica';
+import Hobbies from './components/hobbies';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div style={{ 
+          background: 'linear-gradient(135deg, #ff9966, #ff5e62)',
+          padding: '20px', 
+          minHeight: '100vh' 
+      }}>
+          <Informacion />
+          <Estudios />
+          <Herramientas />
+          <Deportes />
+          <Musica />
+          <Hobbies />
+      </div>
   );
-}
+};
 
 export default App;
